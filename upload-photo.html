@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Photo - QuackTrack</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>QuackTrack</h1>
+        <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="track-ducks.html">Track Ducks</a>
+            <a href="leaderboards.html">Leaderboards</a>
+            <a href="discussion.html">Discussion</a>
+            <a href="profile.html">Profile</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Upload Photo</h2>
+        <form id="upload-photo-form">
+            <input type="file" name="photo" required>
+            <input type="text" name="caption" placeholder="Caption" required>
+            <input type="text" name="duck-tag" placeholder="Tag Duck" required>
+            <button type="submit">Upload</button>
+        </form>
+        <div id="gallery">
+            <h3>Gallery</h3>
+            <div class="thumbnails">Thumbnails of uploaded photos will appear here</div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

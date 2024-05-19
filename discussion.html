@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion - QuackTrack</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>QuackTrack</h1>
+        <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="track-ducks.html">Track Ducks</a>
+            <a href="leaderboards.html">Leaderboards</a>
+            <a href="discussion.html">Discussion</a>
+            <a href="profile.html">Profile</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Discussion</h2>
+        <section>
+            <h3>General Discussion</h3>
+            <ul>
+                <li>Thread Title | Author | Replies</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Duck Adventures</h3>
+            <ul>
+                <li>Thread Title | Author | Replies</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Jeep Stories</h3>
+            <ul>
+                <li>Thread Title | Author | Replies</li>
+            </ul>
+        </section>
+        <form id="new-thread-form">
+            <input type="text" name="title" placeholder="Thread Title" required>
+            <textarea name="content" placeholder="Thread Content" required></textarea>
+            <button type="submit">Create Thread</button>
+        </form>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
